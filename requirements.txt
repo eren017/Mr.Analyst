@@ -1,0 +1,10 @@
+streamlit
+groq
+python-dotenv
+pandas
+numpy
+pdfplumber
+python-docx
+chromadb
+sentence-transformers
+openpyxl

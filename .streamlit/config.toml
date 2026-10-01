@@ -1,0 +1,8 @@
+# Save this file as:  .streamlit/config.toml   (folder next to stream.py)
+[theme]
+base = "dark"
+primaryColor = "#a855f7"
+backgroundColor = "#0b1020"
+secondaryBackgroundColor = "#10142b"
+textColor = "#e5e7eb"
+font = "sans serif"

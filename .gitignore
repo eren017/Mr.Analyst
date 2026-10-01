@@ -1,0 +1,12 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.env
+   chroma_db/
+API_test.ipynb
+# Virtual environments
+.venv

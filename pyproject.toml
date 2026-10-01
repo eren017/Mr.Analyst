@@ -1,0 +1,27 @@
+[project]
+name = "test-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sarth", email = "psiilight0001@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.5.9",
+    "google-genai>=2.20.0",
+    "groq>=1.7.0",
+    "openai>=3.5.0",
+    "pandas>=3.0.6",
+    "pdfplumber>=0.11.10",
+    "python-dotenv>=1.2.3",
+    "sentence-transformers>=6.1.0",
+    "streamlit>=1.64.0",
+]
+
+[project.scripts]
+test-api = "test_api:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
